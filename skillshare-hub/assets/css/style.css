@@ -1,0 +1,128 @@
+/* Custom styles for Skillshare Hub */
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+/* Card styles */
+.skill-card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Profile styles */
+.profile-header {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Form styles */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+/* Dashboard styles */
+.dashboard-stats {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Booking calendar */
+.calendar-container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Payment form */
+.payment-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.card-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+}
+
+/* Search bar */
+.search-container {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+/* Tags */
+.skill-tag {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0.25rem;
+    font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-header {
+        text-align: center;
+    }
+    
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1rem;
+    }
+    
+    .form-container {
+        padding: 1rem;
+    }
+}
